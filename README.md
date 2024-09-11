@@ -1,16 +1,13 @@
-# pix_test_app
+Написать приложение, отображающее галерею картинок:
+- картинки должны отображаться в виде квадратной сетки, количество колонок в которой зависит от ширины экрана;
+- картинки должны загружаться с Pixabay API;
+- под каждой картинкой должно отображаться количество лайков и просмотров данной картинки;
+- при пролистывании галереи вниз картинки должны догружаться автоматически;
+- должно иметься поле поиска, ввод данных в которое с дебаунсом (debounce) обновляет отображаемую галерею на результаты вписанного в поиск запроса;
+- нажатие на картинку должно анимировано открыть картинку во весь экран, откуда должна быть возможность вернуться в исходное состояние.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Требования к коду:
+- приложение должно быть написано на Flutter'е и работать на всех платформах;
+- Код должен быть продокументирован и отформатирован по правилам Effective Dart
+- веб-версия приложения должна быть развёрнута на GitHub Pages
